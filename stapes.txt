@@ -1,0 +1,25 @@
+pretraitemeent
+@
+comprendre les donnees en lisant la description et en l'affichant
+determiner le nombre de ligne et les colonnes(feature et variable cible)
+verifier s'il ya des relations entre les variables
+diviser les donnees en 70, 15, 15
+choix de l'algo
+visualisation des donnees
+normaliser
+entrainer avec les 70%
+    - evalue
+    - traduire en vecteur
+    - creer une fonction trainData
+        - parametre feature, cible
+        - on genere theta
+        - calcul cout
+            -sigmoid de z
+            calcul nouveau theta
+        - verifier les condition d'arret
+            le cout ne change pas (seuil)
+            nbre d'iteration maximales
+        retourner theta
+        tracer la courbe de J(nbIter)
+
+
